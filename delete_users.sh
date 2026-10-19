@@ -11,4 +11,4 @@ do
     sudo userdel  "$username"
 done
 
-echo "Successfully created users"
+echo "Successfully deleted users"
