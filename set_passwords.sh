@@ -8,7 +8,7 @@ usernames=("atanaka" "alee" "rpatel")
 # create the users by looping through the array
 for username in "${usernames[@]}"
 do
-    sudo passwd -m "$username"
+    sudo passwd  "$username"
 done
 
 echo "Successfully created passwords"
